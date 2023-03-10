@@ -2,7 +2,7 @@ from typing import List, TypeVar
 from micropsi.util import Logger
 
 T = TypeVar('T')
-logger = Logger.get_logger(logger_name='test-logger')
+logger = Logger.get_logger()
 
 def find_minimum(arr: List[T]) -> T:
     """
@@ -28,7 +28,6 @@ def find_minimum(arr: List[T]) -> T:
         return arr[0]
 
     low, high = 0, len(arr) - 1
-
     while high > low:
         mid = (low + high) // 2
         if arr[mid] < arr[high]:
@@ -36,4 +35,3 @@ def find_minimum(arr: List[T]) -> T:
         else:
             low = mid + 1
     return arr[high]
-

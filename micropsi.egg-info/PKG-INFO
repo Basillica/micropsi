@@ -2,16 +2,16 @@ Metadata-Version: 2.1
 Name: micropsi
 Version: 0.0.1
 Summary: Micropsi Industries coding challenge to find the minimum of an array
-Home-page: https://github.com/openai/openai-python
+Home-page: https://github.com/Basillica/micropsi
 Author: Microspsi Industries
 Author-email: support@micropsi.com
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
-Requires-Python: >=3.7.1
+Requires-Python: >=3.5.0
 Description-Content-Type: text/markdown
 Provides-Extra: dev
 License-File: LICENSE
 
-# pip3 install git+ssh://git@github.com/Basillica/micropsi.git
-# python3 setup.py install
+# pip3 install git+ssh://git@github.com/Basillica/micropsi.git into any product or to local machine
+# python3 setup.py install in virtualenv 

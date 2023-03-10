@@ -2,6 +2,8 @@ LICENSE
 README.md
 setup.cfg
 setup.py
+examples/__init__.py
+examples/find_minimum_example.py
 micropsi/__init__.py
 micropsi/main.py
 micropsi/version.py
@@ -13,6 +15,5 @@ micropsi.egg-info/requires.txt
 micropsi.egg-info/top_level.txt
 micropsi.egg-info/zip-safe
 micropsi/util/__init__.py
-micropsi/util/error.py
 micropsi/util/logger.py
 tests/test_find_minimum.py

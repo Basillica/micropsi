@@ -18,10 +18,11 @@ class Logger(object):
     Returns:
         logging.Logger: An instance of the logger class
     """
-    logger_name: str
+    logger_name: str = "custom-logger"
     log_level: str = 'INFO'
     log_file: str = None
     
+    @classmethod
     def get_logger(self) -> logging.Logger:
         
         """Method for creating a custom logger
