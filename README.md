@@ -14,3 +14,12 @@ Also from inside project, the module can be installed using the command
 python3 setup.py install
 ```
 To test this fully, it is best inside a virtual environment.
+
+### Test
+Create a file `main.py`, inside the package thus `pip3 install git+ssh://git@github.com/Basillica/micropsi.git`.
+Inside `main.py`
+```python
+from micropsi import find_minimum
+print(find_minimum([1,2,3,4]))
+```
+The output should be `1`.
