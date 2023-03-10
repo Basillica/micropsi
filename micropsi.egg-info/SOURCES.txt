@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+micropsi/__init__.py
+micropsi/main.py
+micropsi/util.py
+micropsi/version.py
+micropsi.egg-info/PKG-INFO
+micropsi.egg-info/SOURCES.txt
+micropsi.egg-info/dependency_links.txt
+micropsi.egg-info/entry_points.txt
+micropsi.egg-info/requires.txt
+micropsi.egg-info/top_level.txt
+micropsi.egg-info/zip-safe
+tests/test_find_minimum.py
