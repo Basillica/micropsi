@@ -12,3 +12,6 @@ Requires-Python: >=3.7.1
 Description-Content-Type: text/markdown
 Provides-Extra: dev
 License-File: LICENSE
+
+# pip3 install git+ssh://git@github.com/Basillica/micropsi.git
+# python3 setup.py install

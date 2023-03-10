@@ -1,6 +1,8 @@
 from typing import List, TypeVar
+from micropsi.util import Logger
 
 T = TypeVar('T')
+logger = Logger.get_logger()
 
 def find_minimum(arr: List[T]) -> T:
     """
@@ -16,6 +18,7 @@ def find_minimum(arr: List[T]) -> T:
         The minimum element in the list.
     """
     if len(arr) == 0:
+        logger.info("Empty list provided")
         raise ValueError('Empty list provided')
 
     if len(arr) == 1:

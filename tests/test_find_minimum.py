@@ -12,6 +12,7 @@ def test_find_minimum():
     assert find_minimum(['banana', 'apple', 'cherry', 'date', 'elderberry']) == 'banana'
     assert find_minimum([3, 2, 1, 0, 1, 2, 3]) == 0
     assert find_minimum(['c', 'b', 'a', 'b', 'c']) == 'a'
+    
     try:
         find_minimum([])
         assert False
